@@ -1,0 +1,77 @@
+#container {
+  display: grid;
+  font-family: Arial, sans-serif;  
+  grid-template-columns: auto;
+  grid-template-rows: 100px 100px 100px;
+  justify-content: space-around;
+}
+
+#btn {
+  font-family: Segoe UI, Segoe UI Midlevel, Segoe WP, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  height: 60px;
+  border-radius: 10px;
+  border-color: rgb(252, 244, 234);
+  cursor: pointer;
+}
+
+.hide {
+  visibility: hidden;
+}
+.con1{
+  margin-top: 10px;
+  display: grid;
+  justify-content: space-around;
+}
+.con3{
+  margin-top: 10px;
+  display: grid;
+  justify-content: space-around;
+} 
+  .reset_btn {
+  font-family: Segoe UI, Segoe UI Midlevel, Segoe WP, Arial, sans-serif;
+  font-weight: 700;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 35px;
+  border-color: rgb(252, 244, 234);
+  cursor: pointer;
+}
+
+.second-line {
+  margin-top: 10px;
+  display: grid;
+  justify-content: space-around;
+}
+
+@media(max-width:750px) and (min-width:601px){
+  #btn{
+      font-size: 25px;
+  }
+  .reset_btn{
+      font-size: 25px;
+  }
+}
+@media(max-width:600px){
+  #btn{
+      font-size: 20px;
+  }
+  .reset_btn{
+      font-size: 20px;
+  }
+   h1{
+      font-size: 22px;
+  } 
+}
+@media(max-width:400px){
+  h1{
+    font-size: 17px;
+} 
+}
+
+@media(max-width:320px){
+  h1{
+    font-size: 15px;
+} 
+}
